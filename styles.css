@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex; 
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin-right: auto;
+}
+
+.headtop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headright {
+    display: flex;
+    gap: 16px;
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    width: 100px; height: auto;
+    
+}
