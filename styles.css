@@ -1,41 +1,147 @@
-body {
-    font-family: Roboto, sans-serif;
-    display: flex; 
+* {
+    padding: 0 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
+.Header {
+    color: white;
+    background-color: #1F2937;
+}
+
+.Headertop {
     display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
 }
 
-.header {
+ul {
     display: flex;
-    flex-direction: column;
+    list-style: none;
+    gap: 20px;
 }
 
-img {
-    margin-right: auto;
-}
-
-.headtop {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
+    color: #F9FAF8;
 }
 
-.headright {
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    max-width: 444px;
+}
+
+.titlesub {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 444px;
+}
+
+.headerbody {
     display: flex;
-    gap: 16px;
-}
-
-.button {
-    font-family: Roboto, sans-serif;
+    padding: 100px;
+    justify-content: space-around;
 }
 
 img {
-    width: 100px; height: auto;
-    
+    max-height: 200px;
+    margin-left: 44px;
+}
+
+.button-header {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.boxes {
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    width: 150px;
+}
+
+.Square {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.section2 {
+    margin: 50px;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.section4 {
+    padding: 55px 88px;
+
+}
+
+.call-action {
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 22px;
+    justify-content: space-around;
+}
+
+.call-action-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 9px;
+    text-align: center;
 }
